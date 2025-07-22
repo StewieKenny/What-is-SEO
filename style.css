@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+nav li:hover{
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+}
+
+.menu{
+    position: sticky;
+    top: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 10px 0px;
+    justify-content: center;
+    background-color: white;
+    z-index: 1000;
+}
+
+.hero{
+    display: flex;
+    font-family: 'honk';
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#header{
+    margin-bottom: 100px;
+}
+
+.hero h1{
+    font-size: 200px;
+    text-align: center;
+}
+
+.inner-div{
+    display: flex;
+    justify-content: center;
+    border: solid 1px #F26B0F;
+    width: 1200px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.image-box img{
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+#definition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
+}
+
+
+.def-block{
+    display: flex;
+    width: 1200px;
+    border: solid 1px #E73879;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.def-block h3{
+    text-align: center;
+}
+
+.def-block div p{
+    font-size: 17px;
+}
+
+#entails{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
+}
+
+.seo-entails{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #F26B0F;
+    color: white;
+    padding: 50px 0px;
+}
+
+#how-to-do-it{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 200px;
+}
+
+.details{
+    display: flex;
+    width: 1200px;
+    border: solid 1px #FCC737;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.details-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: solid 1px #F26B0F;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#why-its-done{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
+}
+
+.why-seo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #E73879;
+    color: white;
+    padding: 50px 0px;
+}
+
+#reasons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+.reason-box{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: solid 0.5px #E73879;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px -3px;
+    padding: 20px;
+}
+
+.reason-box img{
+    border-radius: 10px;
+}
+
+#good-vs-bad{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
+}
+
+.good-vs-bad-def{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #FCC737;
+    padding: 50px 0px;
+}
+
+#good-vs-bad-details{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+.good-details{
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px #FCC737;
+    gap: 10px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FCC737;
+    padding: 50px 0px 50px;
+    gap: 100px;
+}
