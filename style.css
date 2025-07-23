@@ -13,6 +13,11 @@ nav li:hover{
     text-underline-offset: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .menu{
     position: sticky;
     top: 0;
